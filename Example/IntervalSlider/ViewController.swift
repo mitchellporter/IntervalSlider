@@ -60,6 +60,7 @@ class ViewController: UIViewController {
       appearanceValue += 25
     }
     let options: [IntervalSliderOption] = [
+        .LabelBottomPadding(17),
         .MinimumTrackTintColor(UIColor(red:0.667,  green:0.498,  blue:0.824, alpha:1))
     ]
     return (sources, options)

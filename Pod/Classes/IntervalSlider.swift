@@ -48,6 +48,10 @@ public class IntervalSlider: UIView {
       super.init(frame: frame)
     }
     
+    private override func trackRectForBounds(bounds: CGRect) -> CGRect {
+        return CGRectMake(0, 0, 320, 4)
+    }
+    
     required init?(coder aDecoder: NSCoder) {
       fatalError("init(coder:) has not been implemented")
     }
@@ -80,11 +84,7 @@ public class IntervalSlider: UIView {
   private var isAddMark: Bool = false
   private var thumbImage: UIImage?
   private var defaultThumbImage: UIImage {
-    let thumbView = UIView(frame: CGRectMake(0, 0 , 20, 20))
-    thumbView.backgroundColor = UIColor.whiteColor()
-    thumbView.layer.cornerRadius = thumbView.bounds.width * 0.5
-    thumbView.clipsToBounds = true    
-    return self.imageFromViewWithCornerRadius(thumbView)
+    return UIImage(named: "slider-button-image")!
   }
   
   required public init?(coder aDecoder: NSCoder) {

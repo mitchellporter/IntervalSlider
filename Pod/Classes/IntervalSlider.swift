@@ -141,7 +141,7 @@ public class IntervalSlider: UIView {
         self.addSubview(label)
       }
       if self.isAddMark {
-        let mark = UIView(frame: CGRectMake(0, self.slider.frame.origin.y + 8 + 5, 1, 8))
+        let mark = UIView(frame: CGRectMake(0, 0, 1, 8))
         mark.backgroundColor = UIColor.lightGrayColor()
         self.marks.append(mark)
         self.insertSubview(mark, belowSubview:self.slider)

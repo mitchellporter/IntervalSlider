@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14587E762900FCBB9E95D455BC5CA4A2 /* Pods-IntervalSlider_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0011DD2878B78572B539C3BD69E97FF /* Pods-IntervalSlider_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		330E2EB1BD28C2B980B0F724A6A7C0FA /* IntervalSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7D15C7A2BDC0262C2304560608215A /* IntervalSlider-dummy.m */; };
+		571AB756D1E8D451FDB12B1E3363EFBF /* IntervalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D110672C7C3FE467B36CB035F495A0D /* IntervalSlider.swift */; };
+		9D7A6D7903CA1143410689A50CB4244B /* IntervalSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CD00EF7198E83EE2D65A212FC1B40F /* IntervalSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B801A15B590C759AB11E5DB03D1962C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		DB8F5441BEA0E7FCC83889BCFE45D291 /* Pods-IntervalSlider_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8FE36F14D65B7A9F8B8EAD2AA94EA /* Pods-IntervalSlider_Example-dummy.m */; };
+		E67367B7372ED741A89C7BD85B1763E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCD4F7B66EDE4A33F2AE4B9611DEE921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991C158D67B7651E0C8BEEE35B731673;
+			remoteInfo = IntervalSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AC1D4019EF08994758B798FBC2969D9 /* Pods-IntervalSlider_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IntervalSlider_Example-frameworks.sh"; sourceTree = "<group>"; };
+		33CD00EF7198E83EE2D65A212FC1B40F /* IntervalSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IntervalSlider-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		44E197C4CC0766C5DC808C1DAE223489 /* Pods-IntervalSlider_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IntervalSlider_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5AF8FE36F14D65B7A9F8B8EAD2AA94EA /* Pods-IntervalSlider_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IntervalSlider_Example-dummy.m"; sourceTree = "<group>"; };
+		6102071F89BC08E0FC18AE430662BD9C /* Pods-IntervalSlider_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IntervalSlider_Example.modulemap"; sourceTree = "<group>"; };
+		785B73287AD2D08588BF6CCE3145EAB7 /* Pods-IntervalSlider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IntervalSlider_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7D110672C7C3FE467B36CB035F495A0D /* IntervalSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntervalSlider.swift; sourceTree = "<group>"; };
+		7E29EA5C1E157682B94027DB3A95AF3C /* IntervalSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IntervalSlider.xcconfig; sourceTree = "<group>"; };
+		7F939299E1F0D06CE7F5F05B84D836A5 /* IntervalSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IntervalSlider-prefix.pch"; sourceTree = "<group>"; };
+		95D6DFCA7A2D4F2C8736F4AB39BB1D91 /* Pods-IntervalSlider_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IntervalSlider_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9AC24A1B5CB0040C99BD4747CD90458B /* Pods_IntervalSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntervalSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20B7CB426C2BB5DA29D0A48CF4C5A93 /* Pods-IntervalSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IntervalSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B147AC414A8525C61F88CF9C97292C6A /* Pods-IntervalSlider_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IntervalSlider_Example-resources.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CA7D15C7A2BDC0262C2304560608215A /* IntervalSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IntervalSlider-dummy.m"; sourceTree = "<group>"; };
+		DB45DFEC7B770081814CB2B607ABA928 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDBF6C5430D39CD7AA3660AE4DCF942 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0011DD2878B78572B539C3BD69E97FF /* Pods-IntervalSlider_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IntervalSlider_Example-umbrella.h"; sourceTree = "<group>"; };
+		F0DF2F130A1992DDEE395E5C41EE85C1 /* IntervalSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IntervalSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53F1A7E9A9B2207B0B974BD3FA212FB /* IntervalSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IntervalSlider.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACDDD619ADF06151D38D5E864A2E77E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67367B7372ED741A89C7BD85B1763E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF5AC6C6198EB5A048AFE32020CDD64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B801A15B590C759AB11E5DB03D1962C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B4D3CD4B93E0B9E7F634EB254AFEEF7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2FDCC48F039ECFAE5E0993659ABA319F /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		2FDCC48F039ECFAE5E0993659ABA319F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7D110672C7C3FE467B36CB035F495A0D /* IntervalSlider.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3388CA59962DFA83782218BF53A57F47 /* IntervalSlider */ = {
+			isa = PBXGroup;
+			children = (
+				1B4D3CD4B93E0B9E7F634EB254AFEEF7 /* Pod */,
+				91648C412DA2A4CA593C52F5EBDECC1E /* Support Files */,
+			);
+			name = IntervalSlider;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		430AAB12197553B748C35A473CAB18E4 /* Pods-IntervalSlider_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DB45DFEC7B770081814CB2B607ABA928 /* Info.plist */,
+				6102071F89BC08E0FC18AE430662BD9C /* Pods-IntervalSlider_Example.modulemap */,
+				44E197C4CC0766C5DC808C1DAE223489 /* Pods-IntervalSlider_Example-acknowledgements.markdown */,
+				95D6DFCA7A2D4F2C8736F4AB39BB1D91 /* Pods-IntervalSlider_Example-acknowledgements.plist */,
+				5AF8FE36F14D65B7A9F8B8EAD2AA94EA /* Pods-IntervalSlider_Example-dummy.m */,
+				0AC1D4019EF08994758B798FBC2969D9 /* Pods-IntervalSlider_Example-frameworks.sh */,
+				B147AC414A8525C61F88CF9C97292C6A /* Pods-IntervalSlider_Example-resources.sh */,
+				F0011DD2878B78572B539C3BD69E97FF /* Pods-IntervalSlider_Example-umbrella.h */,
+				785B73287AD2D08588BF6CCE3145EAB7 /* Pods-IntervalSlider_Example.debug.xcconfig */,
+				A20B7CB426C2BB5DA29D0A48CF4C5A93 /* Pods-IntervalSlider_Example.release.xcconfig */,
+			);
+			name = "Pods-IntervalSlider_Example";
+			path = "Target Support Files/Pods-IntervalSlider_Example";
+			sourceTree = "<group>";
+		};
+		54204AE1866E3D532FA519375CD5E127 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3388CA59962DFA83782218BF53A57F47 /* IntervalSlider */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				54204AE1866E3D532FA519375CD5E127 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D55B3C5AE01E0C279AA798A7837A164F /* Products */,
+				D6430721757982CD67390399F66D066B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		91648C412DA2A4CA593C52F5EBDECC1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBDBF6C5430D39CD7AA3660AE4DCF942 /* Info.plist */,
+				F53F1A7E9A9B2207B0B974BD3FA212FB /* IntervalSlider.modulemap */,
+				7E29EA5C1E157682B94027DB3A95AF3C /* IntervalSlider.xcconfig */,
+				CA7D15C7A2BDC0262C2304560608215A /* IntervalSlider-dummy.m */,
+				7F939299E1F0D06CE7F5F05B84D836A5 /* IntervalSlider-prefix.pch */,
+				33CD00EF7198E83EE2D65A212FC1B40F /* IntervalSlider-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/IntervalSlider";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D55B3C5AE01E0C279AA798A7837A164F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0DF2F130A1992DDEE395E5C41EE85C1 /* IntervalSlider.framework */,
+				9AC24A1B5CB0040C99BD4747CD90458B /* Pods_IntervalSlider_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6430721757982CD67390399F66D066B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				430AAB12197553B748C35A473CAB18E4 /* Pods-IntervalSlider_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39BE9E5BED34CE9327B972358449C896 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7A6D7903CA1143410689A50CB4244B /* IntervalSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6624DB26B729CF145F442B73187BA1B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14587E762900FCBB9E95D455BC5CA4A2 /* Pods-IntervalSlider_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		171801E6A09EF1B2897D6D3D55827351 /* Pods-IntervalSlider_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE65D5CFFE03A9A085D9EDDBC888D882 /* Build configuration list for PBXNativeTarget "Pods-IntervalSlider_Example" */;
+			buildPhases = (
+				8425EB15C8E5F720F9C259661AD64D2D /* Sources */,
+				ACDDD619ADF06151D38D5E864A2E77E8 /* Frameworks */,
+				6624DB26B729CF145F442B73187BA1B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8C82239CB16DB9F013A8BC6563ABE3C /* PBXTargetDependency */,
+			);
+			name = "Pods-IntervalSlider_Example";
+			productName = "Pods-IntervalSlider_Example";
+			productReference = 9AC24A1B5CB0040C99BD4747CD90458B /* Pods_IntervalSlider_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		991C158D67B7651E0C8BEEE35B731673 /* IntervalSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8D104F00B5D17AAE08965A3E27EA00 /* Build configuration list for PBXNativeTarget "IntervalSlider" */;
+			buildPhases = (
+				5BC4BEDCA02E5A17CEA9E4A3B7A60A14 /* Sources */,
+				BBF5AC6C6198EB5A048AFE32020CDD64 /* Frameworks */,
+				39BE9E5BED34CE9327B972358449C896 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntervalSlider;
+			productName = IntervalSlider;
+			productReference = F0DF2F130A1992DDEE395E5C41EE85C1 /* IntervalSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D55B3C5AE01E0C279AA798A7837A164F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				991C158D67B7651E0C8BEEE35B731673 /* IntervalSlider */,
+				171801E6A09EF1B2897D6D3D55827351 /* Pods-IntervalSlider_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BC4BEDCA02E5A17CEA9E4A3B7A60A14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E2EB1BD28C2B980B0F724A6A7C0FA /* IntervalSlider-dummy.m in Sources */,
+				571AB756D1E8D451FDB12B1E3363EFBF /* IntervalSlider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8425EB15C8E5F720F9C259661AD64D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8F5441BEA0E7FCC83889BCFE45D291 /* Pods-IntervalSlider_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8C82239CB16DB9F013A8BC6563ABE3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IntervalSlider;
+			target = 991C158D67B7651E0C8BEEE35B731673 /* IntervalSlider */;
+			targetProxy = CCD4F7B66EDE4A33F2AE4B9611DEE921 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		068A7C762DBCD31B8DE4AA5B654F367B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E29EA5C1E157682B94027DB3A95AF3C /* IntervalSlider.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IntervalSlider/IntervalSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IntervalSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IntervalSlider/IntervalSlider.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = IntervalSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56F4FD40EA0AB6958F1230A31D234353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785B73287AD2D08588BF6CCE3145EAB7 /* Pods-IntervalSlider_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-IntervalSlider_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IntervalSlider_Example/Pods-IntervalSlider_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_IntervalSlider_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A32B910A883206635F45CE8DC6884F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20B7CB426C2BB5DA29D0A48CF4C5A93 /* Pods-IntervalSlider_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-IntervalSlider_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IntervalSlider_Example/Pods-IntervalSlider_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_IntervalSlider_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B56D6C172A1D1DDD6A0BF5B05CFD82AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E29EA5C1E157682B94027DB3A95AF3C /* IntervalSlider.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IntervalSlider/IntervalSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IntervalSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IntervalSlider/IntervalSlider.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IntervalSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D8D104F00B5D17AAE08965A3E27EA00 /* Build configuration list for PBXNativeTarget "IntervalSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56D6C172A1D1DDD6A0BF5B05CFD82AA /* Debug */,
+				068A7C762DBCD31B8DE4AA5B654F367B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE65D5CFFE03A9A085D9EDDBC888D882 /* Build configuration list for PBXNativeTarget "Pods-IntervalSlider_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F4FD40EA0AB6958F1230A31D234353 /* Debug */,
+				A32B910A883206635F45CE8DC6884F97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

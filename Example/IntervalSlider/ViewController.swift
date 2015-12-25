@@ -12,7 +12,6 @@ import IntervalSlider
 class ViewController: UIViewController {
   @IBOutlet weak var sliderView1: UIView!
   @IBOutlet weak var sliderView2: UIView!
-  @IBOutlet weak var valueLabel1: UILabel!
   @IBOutlet weak var valueLabel2: UILabel!
   
   private var intervalSlider1: IntervalSlider! {
@@ -30,7 +29,7 @@ class ViewController: UIViewController {
     }
   }
   private var data1: [Float] {
-    return [0, 100, 200 , 300, 400]
+    return [1, 2, 3 , 4, 5]
   }
   private var data2: [Float] {
     return [0, 1, 2, 3]
@@ -38,12 +37,14 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    self.intervalSlider1 = IntervalSlider(frame: self.sliderView1.bounds, sources: self.createSources())
-    let result = self.createSources2()
-    self.intervalSlider2 = IntervalSlider(frame: self.sliderView2.bounds, sources: result.sources, options: result.options)
+    
+    let result = self.createSources()
+    self.intervalSlider1 = IntervalSlider(frame: self.sliderView1.bounds, sources: result.sources, options: result.options)
+    let result2 = self.createSources2()
+    self.intervalSlider2 = IntervalSlider(frame: self.sliderView2.bounds, sources: result2.sources, options: result2.options)
   }
   
-  private func createSources() -> [IntervalSliderSource] {
+  private func createSources() -> (sources: [IntervalSliderSource], options: [IntervalSliderOption]) {
     // Sample of equally inttervals
     var sources = [IntervalSliderSource]()
     var appearanceValue: Float = 0
@@ -51,14 +52,17 @@ class ViewController: UIViewController {
     for data in self.data1 {
       let label = UILabel(frame: CGRect(x: 0, y: 0, width: 35, height: 20))
       label.text = "\(Int(data))"
-      label.font = UIFont.systemFontOfSize(CGFloat(12))
-      label.textColor = UIColor.redColor()
+      label.font = UIFont.boldSystemFontOfSize(14)
+      label.textColor = UIColor(red:0.659,  green:0.659,  blue:0.659, alpha:1)
       label.textAlignment = .Center
       let source = IntervalSliderSource(validValue: data, appearanceValue: appearanceValue, label: label)
       sources.append(source)
       appearanceValue += 25
     }
-    return sources
+    let options: [IntervalSliderOption] = [
+        .MinimumTrackTintColor(UIColor(red:0.667,  green:0.498,  blue:0.824, alpha:1))
+    ]
+    return (sources, options)
   }
   
   private func createSources2() -> (sources: [IntervalSliderSource], options: [IntervalSliderOption]) {
@@ -117,8 +121,6 @@ extension ViewController: IntervalSliderDelegate {
   func confirmValue(slider: IntervalSlider, validValue: Float) {
     switch slider.tag {
     case 1:
-      self.valueLabel1.text = "\(Int(validValue))"
-    case 2:
       self.valueLabel2.text = "\(Int(validValue))"
     default:
       break
